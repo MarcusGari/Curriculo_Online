@@ -135,8 +135,18 @@ section{
 	display: flex;
 	background-image: url(../images/BK3.jpg);
 	padding-bottom: 20px;}
+section .center{
+	background-color:var(--claro);
+	padding: 15px 5px 15px 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--escuro);
+	border-radius: 20px;}
 .esquerda, .direita{
 	width: 75%;}
+div.topico{
+	width: 20%;
+	vertical-align: text-top;}
 .topico h1{
 	text-align: center;
 	margin-top: 40px;}
@@ -161,16 +171,6 @@ section{
 	display: flex;
 	margin: 0;
 	padding: 0;}
-section .center{
-	background-color:var(--claro);
-	padding: 15px 5px 15px 5px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: var(--escuro);
-	border-radius: 20px;}
-div.topico{
-	width: 20%;
-	vertical-align: text-top;}
 div.esquerda {
 	width: 80%;
 	margin-left: 10px;
@@ -229,11 +229,20 @@ footer p{
 /* RESPONSIVIDADE MOBILE */
 @media screen and (max-width: 768px){
 	.center{flex-wrap: wrap;}
-	div.topico{width: 100%;}
-	.topico h1{margin-top: 10px;}
-	.topico img{height: 100%;
-		width:50px;}
-	.topico i {width:20%;}
+	div.topico{
+		padding-left: 60px;
+		width: 100%;}
+	.topico h1{
+		margin-top: 0px;
+		margin-bottom: 20px;
+		text-align: left;}
+	.topico img{
+		width:100px;
+		position: absolute;
+		margin-left: 20px;}
+	.topico i {width:min-content;}
+	#programacao h1 img, #capacitacao h1 img{
+		transform:scaleX(-1);}
 	div.direita{width:100%}
 	div.esquerda{width:100%}
 	.nome p {display: none;}
