@@ -8,10 +8,10 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Roboto";
-	color: var(--escuro);
+	color: var(--escuro);/*
 	outline-width: 1px;
 	outline-style: dotted;
-	outline-color: black;}
+	outline-color: black;*/}
 a{
 	text-decoration: none;
 	color: inherit;
