@@ -257,3 +257,16 @@ footer p{
 		width: 100%;
 		margin-bottom: 20px;}
 }
+@media print {
+  /* 1. Força a quebra de página ANTES do elemento */
+  .quebra-pagina {
+    break-before: page;
+    page-break-before: always; /* Fallback para compatibilidade */
+  }
+
+  /* 2. Dica de Ouro: Evita que um bloco seja cortado no meio */
+  .nao-cortar {
+    break-inside: avoid;
+    page-break-inside: avoid; /* Fallback para compatibilidade */
+  }
+}
