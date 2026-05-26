@@ -60,7 +60,7 @@ header .center{
 	display: inline-block;
 	background-position: left;
 	background-size:cover;
-	background-image: url(../images/foto2.jpg);
+/*	background-image: url(../images/foto2.jpg);*/
 	width: 40%;
 	/*max-width: 300px;*/
 	border-radius: 40px;
@@ -75,12 +75,12 @@ header .center{
 	border-width: 5px;
 	border-color:var(--escuro);
 	border-radius: 40px;}
-.foto img:hover {
+/*.foto img:hover {
 	opacity: 0;
 	border-style: double;
 	content: url(../images/foto2.jpg);
 	border-color:var(--escuro);
-	border-radius: 20px;}
+	border-radius: 20px;}*/
 .nome{
 	border-radius: 20px;
 	background-color: var(--verde);
